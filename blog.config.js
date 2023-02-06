@@ -183,13 +183,13 @@ const BLOG = {
   NOTION_PROPERTY_NAME: {
     password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || 'password',
     type: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE || 'type',
-    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || 'title',
+    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || 'Name', //默认是 'title'，为了联动 Obsidian 插件，改为 'Name'
     status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || 'status',
     summary: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SUMMARY || 'summary',
     slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || 'slug',
     category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || 'category',
     date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || 'date',
-    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
+    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'Tags', //默认是 'tags'，为了联动 Obsidian 插件，改为 'Tags'
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon'
   },
 
